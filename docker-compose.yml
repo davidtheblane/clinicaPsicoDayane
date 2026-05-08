@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: dayane-site
+    restart: always
+    ports:
+      - "80:80"
