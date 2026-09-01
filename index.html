@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+
   <!-- SEO Primary -->
   <title>Dayane Bartolomeu | Psicóloga Online para Mulheres | TCC</title>
   <meta name="description"
@@ -12,6 +13,10 @@
   <meta name="author" content="Dayane Bartolomeu" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://dayanebartolomeu.com.br/" />
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -472,8 +477,8 @@
       right: 3rem;
       width: 120px;
       height: 120px;
-      border: 1px solid var(--mauve-light);
-      border-radius: 50%;
+      /* border: 1px solid var(--mauve-light);
+      border-radius: 50%; */
       opacity: 0.4;
     }
 
@@ -552,6 +557,7 @@
     .areas-intro {
       max-width: 640px;
       margin-bottom: 4rem;
+      /* text-align: justify; */
     }
 
     .areas-intro p {
@@ -866,7 +872,7 @@
       left: -1.5rem;
       background: var(--mauve);
       color: var(--white);
-      padding: 1rem 1.5rem;
+      padding: 1rem 2rem;
       font-size: 0.75rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
@@ -888,6 +894,7 @@
       line-height: 1.95;
       margin-bottom: 1.2rem;
       font-weight: 400;
+      text-align: justify;
     }
 
     .sobre-credentials {
@@ -1019,7 +1026,7 @@
     }
 
     .footer-logo {
-      font-family: 'Cormorant Garamond', serif;
+      font-family: serif;
       font-size: 1.1rem;
       color: rgba(255, 255, 255, 0.7);
     }
@@ -1163,6 +1170,11 @@
         grid-template-columns: 1fr;
       }
 
+      .hero-visual-deco img {
+        width: 16px;
+        height: 16px;
+      }
+
       .hero-content {
         padding: 2rem 1rem;
       }
@@ -1200,11 +1212,12 @@
         <span class="hero-tag-tcc">Abordagem TCC</span>
       </div>
       <h1 class="hero-title fade-in fade-in-d1">
-        Um espaço seguro<br>para <em>sua jornada</em><br>interior.
+        Um espaço seguro<br>para <em>compreender</em> seus sentimentos e construir novos caminhos.
       </h1>
       <p class="hero-subtitle fade-in fade-in-d2">
-        São muitos os dilemas enfrentados por nós mulheres. Em alguns momentos nos vemos confusas em nossos pensamentos
-        e emoções — mas você não precisa lidar com isso sozinha.
+        São muitos os dilemas que nós, mulheres, enfrentamos. Em alguns momentos podemos nos sentir confusas diante de
+        nossos
+        pensamentos e emoções — mas você não precisa lidar com isso sozinha.
       </p>
       <div class="hero-actions fade-in fade-in-d3">
         <a href="https://wa.me/5511947922772" target="_blank" rel="noopener" class="btn-primary">Agendar uma sessão</a>
@@ -1219,7 +1232,10 @@
     </div>
     <div class="hero-visual" aria-hidden="true">
       <div class="hero-visual-line"></div>
-      <div class="hero-visual-deco"></div>
+      <div class="hero-visual-deco">
+        <img src="/images/logo2.svg" alt="Logotipo da psicóloga Dayane Bartolomeu"
+          style="width: 100%; height: 100%; object-fit: contain;">
+      </div>
       <div class="hero-visual-deco2"></div>
       <div class="hero-visual-quote">
         <blockquote>
@@ -1235,39 +1251,46 @@
   <section id="areas" aria-labelledby="areas-title">
     <div class="container">
       <div class="areas-intro">
-        <p class="section-label">Especialidades</p>
-        <h2 class="section-title" id="areas-title">Áreas em que posso <em>te ajudar</em></h2>
-        <p>A Terapia Cognitivo-Comportamental (TCC) trabalha a relação entre pensamentos, emoções e comportamentos —
-          oferecendo ferramentas concretas para transformar sua vida.</p>
+        <p class="section-label">Área de atuação</p>
+        <h2 class="section-title" id="areas-title">Sobre a minha <em>abordagem</em></h2>
+        <p>Eu trabalho a partir de uma abordagem chamada de <b>Terapia Cognitivo-Comportamental (TCC)</b> e ela
+          parte de uma idéia muito simples:
+          <br>- A forma como interpretamos o que acontece, influência o que sentimos e como agimos.
+          Na terapia, você aprende a perceber esses padrões e a construir respostas diferentes
+          para aquilo que te causa sofrimento.
+        </p>
       </div>
       <div class="areas-grid" role="list">
         <article class="area-card" role="listitem">
           <div class="area-number">01</div>
           <h3 class="area-title">Ansiedade</h3>
-          <p class="area-text">Aquela sensação de que algo ruim pode acontecer, o turbilhão de pensamentos negativos, o
-            coração acelerado. Na psicoterapia, você aprende técnicas e habilidades para lidar com esses sintomas e
-            trabalhar suas causas, conquistando maior controle e leveza no dia a dia.</p>
+          <p class="area-text">Sabe aquela sensação de que algo ruim pode acontecer, mesmo sem saber exatamente o que?
+            <br> A mente não para, os pensamentos se acumulam, o coração acelera e a angústia cresce.
+            Na psicoterapia você pode compreender o que alimenta a sua ansiedade e encontra novas formas
+            de lidar com ela.
+          </p>
         </article>
         <article class="area-card" role="listitem">
           <div class="area-number">02</div>
           <h3 class="area-title">Depressão</h3>
-          <p class="area-text">A depressão causa uma profunda sensação de desesperança e vazio contínuo. Mas há formas
-            de atravessar esse período. A psicoterapia oferece ferramentas para ressignificar sua história e recuperar a
-            alegria de viver.</p>
+          <p class="area-text">O vazio, a falta de energia e a sensação de que nada vai mudar
+            podem tornar até os dias mais simples difíceis. Na psicoterapia, você pode entender melhor
+            o que está acontecendo e aprender diferentes formas de lidar com esse momento.</p>
         </article>
         <article class="area-card" role="listitem">
           <div class="area-number">03</div>
           <h3 class="area-title">Relacionamentos</h3>
-          <p class="area-text">Seja no campo afetivo, profissional ou familiar, os conflitos podem ser inevitáveis. A
-            psicoterapia cumpre um papel crucial no desenvolvimento de habilidades interpessoais para lidar com as
-            relações da sua vida com mais clareza e segurança.</p>
+          <p class="area-text">Se relacionar nem sempre é fácil. As vezes (ou sempre), queremos evitar conflitos,
+            temos dificuldade de dizer não ou acabamos deixando nossas próprias necessidades de lado.
+            Na psicoterapia você pode compreender esses padrões e encontrar formas mais saudáveis de
+            se posicionar nas suas relações.</p>
         </article>
         <article class="area-card" role="listitem">
           <div class="area-number">04</div>
           <h3 class="area-title">Autoestima</h3>
-          <p class="area-text">Ao longo da vida, experiências dolorosas podem nos fazer acreditar que não somos boas o
-            suficiente. O processo psicoterapêutico te ajuda a olhar com mais carinho para si mesma, construir
-            autoconfiança e reconhecer o seu valor.</p>
+          <p class="area-text">Ao longo da vida, algumas experiências podem fazer com que você passe
+            a duvidar de si mesma e do seu próprio valor. Com a psicoterapia você pode compreender de
+            onde vem essas desesperanças e desenvolver uma relação mais saudável com quem você é.</p>
         </article>
       </div>
     </div>
@@ -1281,10 +1304,10 @@
         "Contribuir para a promoção da saúde mental e melhor qualidade de vida das mulheres, por meio de um atendimento
         profissional, ético, acolhedor e responsável."
       </p>
-      <p class="missao-text">
+      <!-- <p class="missao-text">
         Acredito no poder da psicoterapia e, ainda mais, no potencial individual que cada mulher tem para mudar e
         ressignificar a sua história. Estou aqui para ser uma facilitadora nessa jornada.
-      </p>
+      </p> -->
       <a href="https://wa.me/5511947922772" target="_blank" rel="noopener" class="btn-light">Agendar uma sessão</a>
     </div>
   </section>
@@ -1297,10 +1320,12 @@
           <p class="section-label">Autoconhecimento</p>
           <h2 class="section-title" id="sinais-title">Como sei que preciso de <em>psicoterapia?</em></h2>
           <div class="sinais-text">
-            <p>Não existe contraindicação para psicoterapia. Qualquer pessoa pode fazer, independentemente da sua
-              condição emocional — seja para tratar algo específico ou simplesmente para se conhecer melhor.</p>
-            <p>Quanto antes você começar essa jornada, mais cedo conquistará recursos para lidar com sua própria vida,
-              ter autonomia e conquistar mais liberdade emocional.</p>
+            <p>Você não precisa estar passando por uma crise ou ter um problema específico para buscar ajuda.
+              Ela pode ser um espaço para compreender melhor o que você sente, lidar com as dificuldades e também se
+              conhecer.
+            </p>
+            <p>Quanto mais você entender a si mesma, mais recursos pode desenvolver para fazer escolhas,
+              enfrentar desafios e conduzir a própia vida com mais autonomia.</p>
           </div>
           <a href="https://wa.me/5511947922772" target="_blank" rel="noopener" class="btn-primary"
             style="margin-top:2rem;display:inline-block">Quero começar</a>
@@ -1335,7 +1360,7 @@
         <article class="beneficio-card">
           <div class="beneficio-num">01</div>
           <h3 class="beneficio-title">Acessibilidade</h3>
-          <p class="beneficio-text">Atende mulheres de qualquer cidade do Brasil, incluindo regiões remotas ou pessoas
+          <p class="beneficio-text">Atendimento para qualquer estado do Brasil, incluindo regiões remotas ou pessoas
             com mobilidade reduzida, sem abrir mão da qualidade.</p>
         </article>
         <article class="beneficio-card">
@@ -1430,7 +1455,10 @@
       <div class="sobre-grid">
         <div class="sobre-visual">
           <div class="sobre-photo-box">
-            <span class="sobre-photo-initials">DB</span>
+            <!-- <span class="sobre-photo-initials">DB</span> -->
+            <img src="images/profileSquare.png"
+              alt="Dayane Bartolomeu, psicóloga clínica, sorrindo e olhando para a câmera"
+              style="width:100%;height:100%;object-fit:cover">
             <div class="sobre-badge">
               <strong>Dayane Bartolomeu</strong>
               Psicóloga Clínica · TCC
@@ -1469,7 +1497,9 @@
           <p class="section-label">Perguntas frequentes</p>
           <h2 class="section-title" id="faq-title">Tire suas <em>dúvidas</em></h2>
           <p style="color:var(--text-mid);font-size:0.95rem;line-height:1.85;margin-bottom:2rem">Tem mais alguma dúvida?
-            Entre em contato pelo WhatsApp — terei prazer em conversar com você.</p>
+            <br>
+            Entre em contato pelo WhatsApp — terei prazer em conversar com você.
+          </p>
           <a href="https://wa.me/5511947922772" target="_blank" rel="noopener" class="btn-primary">Falar pelo
             WhatsApp</a>
         </div>
@@ -1508,9 +1538,8 @@
   <section id="contato" aria-label="Contato e agendamento">
     <div class="container-sm">
       <p class="cta-label">Dê o primeiro passo</p>
-      <h2 class="cta-title">Pronta para cuidar da sua <em>saúde mental?</em></h2>
-      <p class="cta-sub">Agende uma sessão e comece uma jornada rumo a uma vida mais autêntica, leve e conectada com
-        quem você realmente é.</p>
+      <h2 class="cta-title">Começar pode ser <br><em>mais simples do que parece</em></h2>
+      <p class="cta-sub">Agende uma sessão e vamos conversar.</p>
       <a href="https://wa.me/5511947922772" target="_blank" rel="noopener" class="btn-primary"
         style="font-size:0.85rem;padding:1.1rem 2.8rem">Agendar agora pelo WhatsApp</a>
     </div>
@@ -1526,7 +1555,10 @@
         <li><a href="#faq">FAQ</a></li>
         <li><a href="https://wa.me/5511947922772" target="_blank" rel="noopener">Contato</a></li>
       </ul>
-      <p class="footer-copy">&copy; 2025 Dayane Bartolomeu. Todos os direitos reservados.</p>
+
+    </div>
+    <div class="footer-inner">
+      <p class="footer-copy">&copy; 2026 Todos os direitos reservados.</p>
     </div>
   </footer>
 
